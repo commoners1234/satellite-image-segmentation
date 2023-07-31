@@ -1,0 +1,213 @@
+absl-py==0.15.0
+affine==2.3.0
+aggdraw==1.3.16
+albumentations==1.1.0
+anyio==3.6.2
+apache-beam==2.43.0
+argon2-cffi==21.3.0
+argon2-cffi-bindings==21.2.0
+asttokens @ file:///home/conda/feedstock_root/build_artifacts/asttokens_1618968359944/work
+astunparse==1.6.3
+attrs==21.4.0
+backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
+backports.functools-lru-cache @ file:///home/conda/feedstock_root/build_artifacts/backports.functools_lru_cache_1618230623929/work
+beautifulsoup4==4.11.1
+bleach==5.0.1
+blessings==1.7
+cachetools==4.2.4
+certifi==2021.10.8
+cffi==1.15.1
+charset-normalizer==2.0.12
+clang==5.0
+click==8.0.4
+click-plugins==1.1.1
+cligj==0.7.2
+cloudpickle==2.2.0
+crcmod==1.7
+cycler==0.11.0
+debugpy @ file:///tmp/build/80754af9/debugpy_1637091799509/work
+decorator==4.4.2
+defusedxml==0.7.1
+dill==0.3.1.1
+docopt==0.6.2
+earthpy==0.9.4
+efficientnet==1.0.0
+einops==0.4.1
+entrypoints @ file:///home/conda/feedstock_root/build_artifacts/entrypoints_1643888246732/work
+executing @ file:///home/conda/feedstock_root/build_artifacts/executing_1646044401614/work
+fastavro==1.7.0
+fasteners==0.18
+fastjsonschema==2.16.2
+Fiona==1.8.21
+flatbuffers==1.12
+fonttools==4.29.1
+gast==0.4.0
+geopandas==0.10.2
+google-api-core==2.10.2
+google-api-python-client==1.12.11
+google-apitools==0.5.31
+google-auth==1.35.0
+google-auth-httplib2==0.1.0
+google-auth-oauthlib==0.4.6
+google-cloud-bigquery==3.4.0
+google-cloud-bigquery-storage==2.13.2
+google-cloud-bigtable==1.7.3
+google-cloud-core==2.3.2
+google-cloud-datastore==1.15.5
+google-cloud-dlp==3.9.2
+google-cloud-language==1.3.2
+google-cloud-pubsub==2.13.11
+google-cloud-pubsublite==1.6.0
+google-cloud-recommendations-ai==0.7.1
+google-cloud-spanner==3.23.0
+google-cloud-videointelligence==1.16.3
+google-cloud-vision==1.0.2
+google-crc32c==1.5.0
+google-pasta==0.2.0
+google-resumable-media==2.4.0
+googleapis-common-protos==1.57.0
+gpustat==0.6.0
+grpc-google-iam-v1==0.12.4
+grpcio==1.51.0
+grpcio-status==1.48.2
+h5py==3.1.0
+hdfs==2.7.0
+httplib2==0.20.4
+idna==3.3
+image-classifiers==1.0.0
+imageio==2.5.0
+imageio-ffmpeg==0.4.7
+imgaug==0.2.9
+importlib-metadata==4.11.2
+ipykernel @ file:///home/conda/feedstock_root/build_artifacts/ipykernel_1644979756491/work/dist/ipykernel-6.9.1-py3-none-any.whl
+ipython==7.34.0
+ipython-genutils==0.2.0
+ipywidgets==7.7.2
+jedi @ file:///home/conda/feedstock_root/build_artifacts/jedi_1637175083648/work
+Jinja2==3.1.2
+joblib==1.1.0
+jsonschema==4.17.0
+jupyter-client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1642858610849/work
+jupyter-core @ file:///home/conda/feedstock_root/build_artifacts/jupyter_core_1645024267147/work
+jupyter-server==1.23.3
+jupyterlab-pygments==0.2.2
+jupyterlab-widgets==1.1.1
+keras==2.6.0
+Keras-Applications==1.0.8
+Keras-Preprocessing==1.1.2
+keras-segmentation==0.3.0
+keras-unet-collection==0.1.13
+kiwisolver==1.3.2
+libclang==13.0.0
+Markdown==3.3.6
+MarkupSafe==2.1.1
+matplotlib==3.5.1
+matplotlib-inline @ file:///home/conda/feedstock_root/build_artifacts/matplotlib-inline_1631080358261/work
+mistune==2.0.4
+moviepy==1.0.3
+MRC-InSAR-Common==0.1.2
+munch==2.5.0
+nbclassic==0.4.8
+nbclient==0.7.0
+nbconvert==7.2.5
+nbformat==5.7.0
+nest-asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1638419302549/work
+networkx==2.7.1
+notebook==6.5.2
+notebook_shim==0.2.2
+numpy==1.19.5
+nvidia-ml-py==11.495.46
+nvidia-ml-py3==7.352.0
+nvitop==0.8.0
+oauth2client==4.1.3
+oauthlib==3.2.0
+objsize==0.5.2
+opencv-python==4.5.5.62
+opencv-python-headless==4.5.5.62
+opt-einsum==3.3.0
+orjson==3.8.2
+overrides==6.5.0
+packaging==21.3
+pandas==1.4.1
+pandocfilters==1.5.0
+parso @ file:///home/conda/feedstock_root/build_artifacts/parso_1638334955874/work
+patchify==0.2.3
+pexpect @ file:///home/conda/feedstock_root/build_artifacts/pexpect_1602535608087/work
+pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
+Pillow==9.0.1
+proglog==0.1.10
+progressbar==2.5
+prometheus-client==0.15.0
+prompt-toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1644497866770/work
+proto-plus==1.22.1
+protobuf==3.19.6
+psutil==5.9.0
+ptyprocess @ file:///home/conda/feedstock_root/build_artifacts/ptyprocess_1609419310487/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
+pure-eval @ file:///home/conda/feedstock_root/build_artifacts/pure_eval_1642875951954/work
+pyarrow==6.0.1
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycparser==2.21
+pydot==1.4.2
+Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1641580240686/work
+pymongo==3.13.0
+pyparsing==3.0.7
+pyproj==3.3.0
+pyrsistent==0.19.2
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1626286286081/work
+pytz==2021.3
+PyWavelets==1.2.0
+PyYAML==6.0
+pyzmq==19.0.2
+qudida==0.0.4
+rasterio==1.2.10
+regex==2022.10.31
+requests==2.27.1
+requests-oauthlib==1.3.1
+rsa==4.8
+scikit-image==0.19.2
+scikit-learn==1.0.2
+scipy==1.8.0
+segmentation-models==1.0.1
+Send2Trash==1.8.0
+Shapely==1.8.1.post1
+six==1.15.0
+sniffio==1.3.0
+snuggs==1.4.7
+soupsieve==2.3.2.post1
+sqlparse==0.4.3
+stack-data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1644872665635/work
+tensorboard==2.6.0
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+tensorflow==2.6.2
+tensorflow-addons==0.16.1
+tensorflow-estimator==2.6.0
+tensorflow-gpu==2.6.2
+tensorflow-io-gcs-filesystem==0.24.0
+tensorflow-metadata==1.11.0
+tensorflow-model-analysis==0.42.0
+tensorflow-serving-api==2.10.0
+termcolor==1.1.0
+terminado==0.17.0
+tf-estimator-nightly==2.8.0.dev2021122109
+tfx-bsl==1.11.0
+threadpoolctl==3.1.0
+tifffile==2022.2.9
+tinycss2==1.2.1
+tornado @ file:///home/conda/feedstock_root/build_artifacts/tornado_1610094708661/work
+tqdm==4.63.0
+traitlets==5.5.0
+typeguard==2.13.3
+typing-extensions==3.7.4.3
+uritemplate==3.0.1
+urllib3==1.26.8
+visualkeras==0.0.2
+wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1600965781394/work
+webencodings==0.5.1
+websocket-client==1.4.2
+Werkzeug==2.0.3
+widgetsnbextension==3.6.1
+wrapt==1.12.1
+zipp==3.7.0
+zstandard==0.19.0
