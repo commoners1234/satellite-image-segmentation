@@ -1,0 +1,37 @@
+in_channels : 3
+num_classes : 2
+model_name : fapnet
+batch_size : 6
+epochs : 500
+learning_rate : !!float 3e-4
+val_plot_epoch : 1000
+augment : True
+transfer_lr : False
+gpu : !!str 3
+experiment : patchify_WOC
+patchify : True
+patch_class_balance : True
+patch_size : 256
+stride : 64
+p_train_dir : json/train_patch_WOC_256.json
+p_valid_dir : json/valid_patch_WOC_256.json
+p_test_dir : json/valid_patch_WOC_256.json 
+weights : False
+balance_weights : [1.4, 8.6] 
+dataset_dir : /mnt/hdd2/mdsamiul/waterbody_kamara/data/
+root_dir : /mnt/hdd2/mdsamiul/waterbody_kamara
+train_size : 0.8
+train_dir : train.csv
+valid_dir : valid.csv
+test_dir : valid.csv 
+csv : True
+val_pred_plot : True
+lr : True
+tensorboard : True
+early_stop : False
+checkpoint : True
+patience : 300 
+load_model_name : m.hdf5
+load_model_dir : None
+plot_single : True
+index : -1
