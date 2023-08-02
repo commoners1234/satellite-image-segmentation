@@ -20,16 +20,6 @@ os.environ["CUDA_VISIBLE_DEVICES"]= "3"
 os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'
 
 def display_all(data):
-    """
-    Summary:
-        save all images into single figure
-    Arguments:
-        data : data file holding images path
-        directory (str) : path to save images
-    Return:
-        save images figure into directory
-    """
-    
     pathlib.Path((config['visualization_dir']+'display')).mkdir(parents = True, exist_ok = True)
 
     for i in range(len(data)):
@@ -87,15 +77,6 @@ def display_all(data):
 
 
 def class_balance_check(patchify, data_dir):
-    """
-    Summary:
-        checking class percentage in full dataset
-    Arguments:
-        patchify (bool): TRUE if want to check class balance for patchify experiments
-        data_dir (str): directory where data files save
-    Return:
-        class percentage
-    """
     if patchify:
         with open(data_dir, 'r') as j:
             train_data = json.loads(j.read())
@@ -136,17 +117,6 @@ def class_distribution(data):
 
 
 def display_color_composite(data):
-    """
-    Plots a 3-channel representation of VV/VH polarizations as a single chip (image 1).
-    Overlays a chip's corresponding water label (image 2).
-
-    Args:
-        random_state (int): random seed used to select a chip
-
-    Returns:
-        plot.show(): chip and labels plotted with pyplot
-    """
-    
     pathlib.Path((config['visualization_dir']+'display_color_composite')).mkdir(parents = True, exist_ok = True)
     
     for i in range(len(data)):
